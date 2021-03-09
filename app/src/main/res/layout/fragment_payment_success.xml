@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#FFF"
+    tools:context=".ui.detail.PaymentSuccessFragment">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="201dp"
+        android:id="@+id/ivLogo"
+        android:src="@drawable/ic_success_order"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You've Made Order"
+        android:layout_marginTop="30dp"
+        style="@style/TextView.PoppinsNormal20sp020202"
+        android:id="@+id/tvTitle" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Just stay at home while we are\npreparing your best foods"
+        android:layout_marginTop="6dp"
+        style="@style/TextView.PoppinsNormal14sp8D92A3"
+        android:id="@+id/tvSubtitle" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        style="@style/Button.Primary"
+        android:id="@+id/btnOtherFood"
+        android:text="Order Other Foods"
+        android:textAllCaps="false"
+        android:layout_marginTop="30dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        style="@style/Button.Secondary"
+        android:id="@+id/btnMyOrder"
+        android:text="View My Order"
+        android:textAllCaps="false"
+        android:layout_marginTop="12dp" />
+
+</LinearLayout>

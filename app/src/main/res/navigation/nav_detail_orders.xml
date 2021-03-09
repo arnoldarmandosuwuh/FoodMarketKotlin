@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/fragmentDetailOrders"
+    android:id="@+id/nav_detail_orders">
+
+    <fragment android:id="@+id/fragmentDetailOrders"
+        android:name="com.aas.foodmarketkotlin.ui.order.detailsorders.OrdersDetailFragment"
+        tools:layout="@layout/fragment_orders_detail">
+
+        <argument android:name="data"
+            android:defaultValue="@null"
+            app:argType="com.aas.foodmarketkotlin.model.response.transaction.Data"
+            app:nullable="true"/>
+
+    </fragment>
+
+</navigation>
